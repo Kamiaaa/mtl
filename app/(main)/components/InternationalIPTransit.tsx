@@ -144,6 +144,7 @@ const InternationalIPTransit = () => {
               src="/img/hero-05.png" // Place your network or datacenter image in /public/img/
               alt="International IP Transit Infrastructure"
               fill
+              loading="eager"
               className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
