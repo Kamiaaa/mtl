@@ -57,7 +57,7 @@ const ManagementTeam = () => {
     {
       name: 'Mohammad Selim',
       designation: 'General Manager - Accounts & Finance',
-      image: '/img/gm.jpg', // Place photo in /public/img/team/
+      image: '/img/profile.png', // Place photo in /public/img/team/
       bio: 'Oversees financial planning, corporate accounting, regulatory auditing, and billing operations, ensuring long-term financial stability and operational compliance.',
       icon: FaCalculator,
       linkedin: '#',
@@ -65,7 +65,7 @@ const ManagementTeam = () => {
     {
       name: 'Sharafat Ullah Zahid',
       designation: 'Chief Operating Officer (COO)',
-      image: '/img/coo.jpg', // Place photo in /public/img/team/
+      image: '/img/profile.png', // Place photo in /public/img/team/
       bio: 'Directs overall company operations, strategic business expansion, inter-operator relations, and service delivery across all International Internet Gateway (IIG) business verticals.',
       icon: FaCogs,
       linkedin: '#',
@@ -73,7 +73,7 @@ const ManagementTeam = () => {
     {
       name: 'Md Rahmatullah Jibon',
       designation: 'AGM - Technical Operations',
-      image: '/img/agm.jpeg', // Place photo in /public/img/team/
+      image: '/img/profile.png', // Place photo in /public/img/team/
       bio: 'Leads network architecture, transmission infrastructure, NOC management, BGP routing optimization, and submarine cable link maintenance to ensure zero-downtime performance.',
       icon: FaNetworkWired,
       linkedin: '#',
