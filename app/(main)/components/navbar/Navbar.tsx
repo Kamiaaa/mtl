@@ -57,7 +57,7 @@ const Navbar = () => {
     items: [
       { name: 'Mission & Vision', href: '/mission-vision', icon: <Target className="w-4 h-4" /> },
       { name: 'Board of Directors', href: '/board-of-directors', icon: <Users className="w-4 h-4" /> },
-      { name: 'Management Team', href: '/management-team', icon: <Briefcase className="w-4 h-4" /> },
+      { name: 'Our Leadership Team', href: '/leadership-team', icon: <Briefcase className="w-4 h-4" /> },
     ],
   };
 

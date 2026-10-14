@@ -134,7 +134,7 @@ const ManagementTeam = () => {
     >
       {/* Global Hero Section */}
       <HeroSection
-        title="Management Team"
+        title="Leadership Team"
         description="Driven by dedicated industry professionals leading operations, financial management, and technical excellence at Mango Teleservices."
       />
 
