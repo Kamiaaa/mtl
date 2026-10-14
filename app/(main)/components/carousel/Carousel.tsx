@@ -191,7 +191,7 @@ function NetworkCanvas() {
 /* Slide buttons                                                      */
 /* ------------------------------------------------------------------ */
 
-const BTN_BASE = `${styles.btn} inline-flex items-center justify-center rounded-[2px] px-[clamp(14px,1.5vw,30px)] h-[clamp(30px,2.9vw,52px)] text-[clamp(11px,0.85vw,15px)] font-semibold whitespace-nowrap relative z-30`;
+const BTN_BASE = `${styles.btn} inline-flex items-center justify-center rounded-[3px] px-[clamp(14px,1.5vw,30px)] h-[clamp(30px,2.9vw,52px)] text-[clamp(11px,0.85vw,15px)] font-semibold whitespace-nowrap relative z-30`;
 
 function ChevronIcon() {
   return (
