@@ -128,14 +128,10 @@ const MissionVision = () => {
               Mango Teleservices Ltd.
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed">
-              As a premier International Internet Gateway (IIG) operator in Bangladesh, Mango Teleservices Ltd. 
-              is dedicated to delivering ultra-fast, stable, and secure global internet connectivity to ISPs, 
-              ICXs, and large-scale enterprises.
+              Teleservices Limited is a Public Limited company incorporated in the year 2007. Mango is Bangladesh’s first private sector International Internet Gateway (IIG) licensed by the government. Mango has the rights of use of all submarine cables (SMW4, SMW5, etc) ensures the security and quality of data connection to its clients. Mango has direct interconnection with most of the CDN including AKAMAI, AMAZON, DECIX, EQUINIX, FACEBOOK, GOOGLE, ZENLAYER and many other content networks throughout the globe.
             </p>
             <p className="text-slate-500 leading-relaxed">
-              We leverage state-of-the-art network infrastructure, diverse submarine cable connections, and optimized 
-              routing protocols to eliminate bottlenecks and ensure uninterrupted digital communication nationwide. 
-              Our commitment to excellence fuels the growth of Bangladesh’s telecommunications and IT sector.
+              We understand the importance of technological growth in Bangladesh and preserving the ecosystem. Mango has invested towards the development of lithium batteries, Electric Vehicles and a solar power energy project! Mango has a goal to nurture the country’s young aspirations, they have invested in the countries education sector as well.
             </p>
           </div>
 
