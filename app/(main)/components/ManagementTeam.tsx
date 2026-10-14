@@ -64,7 +64,7 @@ const ManagementTeam = () => {
     },
     {
       name: 'Sharafat Ullah Zahid',
-      designation: 'Head of Technical',
+      designation: 'Chief Operating Officer (COO)',
       image: '/img/profile.png', // Place photo in /public/img/team/
       bio: 'Directs overall company operations, strategic business expansion, inter-operator relations, and service delivery across all International Internet Gateway (IIG) business verticals.',
       icon: FaCogs,
@@ -72,7 +72,7 @@ const ManagementTeam = () => {
     },
     {
       name: 'Md Rahmatullah Jibon',
-      designation: 'AGM - Technical Operations',
+      designation: 'Head of Technical',
       image: '/img/profile.png', // Place photo in /public/img/team/
       bio: 'Leads network architecture, transmission infrastructure, NOC management, BGP routing optimization, and submarine cable link maintenance to ensure zero-downtime performance.',
       icon: FaNetworkWired,
