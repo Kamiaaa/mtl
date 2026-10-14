@@ -191,12 +191,12 @@ function NetworkCanvas() {
 /* Slide buttons                                                      */
 /* ------------------------------------------------------------------ */
 
-const BTN_BASE = `${styles.btn} inline-flex items-center justify-center px-[clamp(14px,1.5vw,30px)] h-[clamp(30px,2.9vw,52px)] text-[clamp(11px,0.85vw,15px)] font-semibold whitespace-nowrap relative z-30`;
+const BTN_BASE = `${styles.btn} inline-flex items-center justify-center rounded-[3px] px-[clamp(14px,1.5vw,30px)] h-[clamp(30px,2.9vw,52px)] text-[clamp(11px,0.85vw,15px)] font-semibold whitespace-nowrap relative z-30`;
 
 function ChevronIcon() {
   return (
     <svg viewBox="0 0 24 24" className="size-[1.1em]" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden>
-      <path d="M9 5l7 7-7 7" />
+      <path d="M9 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }

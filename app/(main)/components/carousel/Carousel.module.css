@@ -131,7 +131,7 @@
   inset: 0;
   z-index: -1;
   background: #fff;
-  border-radius: inherit;
+  
   clip-path: polygon(
     evenodd,
     0 0, 100% 0, 100% 100%, 0 100%, 0 0,
