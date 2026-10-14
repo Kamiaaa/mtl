@@ -121,7 +121,7 @@ const MissionVision = () => {
         {/* Company Overview Section */}
         <motion.div variants={itemVariants} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <span className="text-[#FECA26] font-semibold tracking-wider uppercase text-sm">
+            <span className="text-[#FECA26] font-semibold tracking-wider uppercase text-xl">
               Connecting Bangladesh to the World
             </span>
             {/* <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 leading-tight">
