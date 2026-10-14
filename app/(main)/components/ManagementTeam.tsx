@@ -64,7 +64,7 @@ const ManagementTeam = () => {
     },
     {
       name: 'Sharafat Ullah Zahid',
-      designation: 'Chief Operating Officer (COO)',
+      designation: 'Head of Technical',
       image: '/img/profile.png', // Place photo in /public/img/team/
       bio: 'Directs overall company operations, strategic business expansion, inter-operator relations, and service delivery across all International Internet Gateway (IIG) business verticals.',
       icon: FaCogs,
