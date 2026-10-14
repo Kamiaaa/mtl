@@ -1,0 +1,90 @@
+/* NewsTicker.module.css */
+
+.tickerContainer {
+  width: 100%;
+  background-color: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 0;
+  overflow-x: hidden;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.tickerTrack {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 25s linear infinite;
+}
+
+.tickerTrack:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.tickerItem {
+  display: flex;
+  align-items: center;
+  margin: 0 1.5rem;
+}
+
+.tickerText {
+  color: #475569;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .tickerText {
+    font-size: 1rem;
+  }
+}
+
+.tickerDivider {
+  margin-left: 3rem;
+  color: #dc2626;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .tickerDivider {
+    font-size: 0.875rem;
+  }
+}
+
+/* Dark mode via .dark class (e.g. next-themes or Tailwind) */
+:global(.dark) .tickerContainer {
+  background-color: #0f172a;
+  border-color: #1e293b;
+}
+
+:global(.dark) .tickerText {
+  color: #94a3b8;
+}
+
+/* Dark mode via OS system preference */
+@media (prefers-color-scheme: dark) {
+  .tickerContainer {
+    background-color: #0f172a;
+    border-color: #1e293b;
+  }
+
+  .tickerText {
+    color: #94a3b8;
+  }
+}
+
+/* Infinite loop keyframes */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

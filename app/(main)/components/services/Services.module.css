@@ -1,0 +1,106 @@
+/* Rotating Comet Border Beam */
+.beamRotate {
+  animation: beamSpin 6s linear infinite;
+}
+
+@keyframes beamSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Eyebrow & Badge Styles */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+  color: #FECA26; /* Light mode sky blue (600) */
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+:global(.dark) .eyebrow {
+  color: #38bdf8; /* Dark mode sky blue (400) */
+}
+
+.badge {
+  position: relative;
+  display: inline-block;
+  width: 26px;
+  height: 12px;
+  border: 1.5px solid currentColor;
+  border-radius: 999px;
+}
+
+.badge::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  width: 14px;
+  border-radius: 999px;
+  background: currentColor;
+  animation: knob 2s ease-in-out infinite;
+}
+
+@keyframes knob {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(7px);
+  }
+}
+
+/* Title Accent & Animated Underline */
+.accent {
+  position: relative;
+  display: inline-block;
+  color: #FECA26; /* Light mode accent */
+}
+
+:global(.dark) .accent {
+  color: #38bdf8; /* Dark mode accent */
+}
+
+.underline {
+  position: absolute;
+  left: -1%;
+  top: 100%;
+  width: 97%;
+  height: 0.17em;
+  margin-top: -0.03em;
+  overflow: visible;
+  clip-path: inset(0 0 0 0);
+  animation: underlineSweep 3s linear infinite;
+}
+
+@keyframes underlineSweep {
+  0%,
+  33.33% {
+    clip-path: inset(0 0 0 0);
+  }
+  66.66% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* Accessibility / Motion Settings */
+@media (prefers-reduced-motion: reduce) {
+  .beamRotate,
+  .badge::after,
+  .underline {
+    animation: none;
+  }
+}

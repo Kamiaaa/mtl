@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import "tailwindcss";
+@theme {
+  /* Existing Custom Fonts */
+  --font-bricolage: "Bricolage Grotesque", sans-serif;
+}
+
+/* Optional custom keyframes if you want a custom bouncing or spinning effect */
+@keyframes smooth-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-smooth-spin {
+  animation: smooth-spin 2s linear infinite;
+}
+
