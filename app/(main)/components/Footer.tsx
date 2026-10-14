@@ -48,28 +48,29 @@ const Footer = () => {
 
   // Company & Support Navigation Links
   const companyLinks = [
-    { name: 'About Us', href: '/about' },
-    { name: 'Coverage Area', href: '/coverage', icon: <Globe className="w-4 h-4" /> },
-    { name: 'Pay Bill Online', href: '/pay-bill', icon: <CreditCard className="w-4 h-4" /> },
-    { name: 'Speedtest Portal', href: '/speedtest', icon: <Gauge className="w-4 h-4" /> },
-    { name: 'Selfcare Login', href: '/portal', icon: <Headphones className="w-4 h-4" /> },
-    { name: 'BTRC License Info', href: '/license', icon: <FileCheck2 className="w-4 h-4" /> },
+    { name: 'Mission & Vision', href: '/mission-vision' },
+    { name: 'Board of Directors', href: '/board-of-directors', icon: <Globe className="w-4 h-4" /> },
+    { name: 'Our Leadership Team', href: '/leadership-team', icon: <CreditCard className="w-4 h-4" /> },
+    { name: 'Training & Programs', href: '/training-programs', icon: <Gauge className="w-4 h-4" /> },
+    { name: 'Contact', href: '/contact', icon: <Headphones className="w-4 h-4" /> },
+    { name: 'Career', href: '/career', icon: <FileCheck2 className="w-4 h-4" /> },
   ];
 
   // Internet Services & Packages Links
   const serviceLinks = [
-    { name: 'Home Broadband', href: '/packages/home', icon: <Wifi className="w-4 h-4" /> },
-    { name: 'Corporate Connectivity', href: '/packages/corporate', icon: <Server className="w-4 h-4" /> },
-    { name: 'Dedicated Internet', href: '/packages/dedicated', icon: <Zap className="w-4 h-4" /> },
-    { name: 'IPTV & Streaming Services', href: '/services/iptv', icon: <Tv className="w-4 h-4" /> },
-    { name: 'Data Center & Hosting', href: '/services/hosting', icon: <Server className="w-4 h-4" /> },
+    { name: 'International Bandwidth Solutions', href: '/international-bandwidth-solutions', icon: <Wifi className="w-4 h-4" /> },
+    { name: 'International IP Transit', href: '/iit', icon: <Server className="w-4 h-4" /> },
+    { name: 'Data Connectivity', href: '/data-connectivity', icon: <Zap className="w-4 h-4" /> },
+    { name: 'IPLC', href: '/iplc', icon: <Tv className="w-4 h-4" /> },
+    { name: 'DDoS Protection & Network Security', href: '/ddos-protection-&-network-security', icon: <Server className="w-4 h-4" /> },
+    { name: 'Network Monitoring & Management', href: '/network-monitoring-&-management', icon: <Server className="w-4 h-4" /> },
   ];
 
   // ISP Contact Details
   const contactInfo = [
-    { icon: <Phone className="w-5 h-5" />, label: 'Helpdesk Hotline', value: '+880 9612-000111, +880 1711-111222', link: 'tel:+8809612000111' },
-    { icon: <Mail className="w-5 h-5" />, label: 'Support Email', value: 'support@a1communication.net', link: 'mailto:support@a1communication.net' },
-    { icon: <MapPin className="w-5 h-5" />, label: 'Head Office', value: 'Level 5, A1 Tower, Main Road, Block B, Dhaka, Bangladesh.', link: null },
+    { icon: <Phone className="w-5 h-5" />, label: 'NOC Hotline', value: '+8801730068810, +8801730068811', link: 'tel:+8801730068810' },
+    { icon: <Mail className="w-5 h-5" />, label: 'Support Email', value: 'support@mango.com.bd', link: 'mailto:support@mango.com.bd' },
+    { icon: <MapPin className="w-5 h-5" />, label: 'Head Office', value: 'Police Plaza Concord, Tower-02, (7th Floor) Road # 144, Gulshan-1,Dhaka 1212, Bangladesh.', link: null },
     { icon: <Clock className="w-5 h-5" />, label: 'Support Hours', value: '24/7 Technical Assistance & Customer Care', link: null },
   ];
 
@@ -123,7 +124,7 @@ const Footer = () => {
             </div>
 
             <p className="text-slate-400 text-sm leading-relaxed pt-2">
-              Empowering homes and businesses with high-speed fiber-optic internet, low latency routing, and uninterrupted 24/7 connectivity.
+              Powering ISPs and enterprises with high-capacity IP transit, low-latency routing, robust international connectivity, and reliable 24/7 network performance through advanced Internet Infrastructure services.
             </p>
           </div>
 
