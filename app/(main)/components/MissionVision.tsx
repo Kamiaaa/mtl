@@ -127,7 +127,7 @@ const MissionVision = () => {
             {/* <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 leading-tight">
               Mango Teleservices Ltd.
             </h2> */}
-            <p className="text-slate-600 text-lg leading-relaxed">
+            <p className="text-slate-600 text-lg leading-relaxed text-justify">
               Mango Teleservices Limited is a Public Limited company incorporated in the year 2007. Mango is Bangladesh’s first private sector International Internet Gateway (IIG) licensed by the government. Mango has the rights of use of all submarine cables (SMW4, SMW5, etc) ensures the security and quality of data connection to its clients. Mango has direct interconnection with most of the CDN including AKAMAI, AMAZON, DECIX, EQUINIX, FACEBOOK, GOOGLE, ZENLAYER and many other content networks throughout the globe.
             </p>
             <p className="text-slate-500 leading-relaxed">
