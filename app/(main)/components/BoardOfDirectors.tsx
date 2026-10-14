@@ -54,15 +54,15 @@ const BoardOfDirectors = () => {
   // Directors Data (Chairman and Managing Director)
   const directors = [
     {
-      name: 'Chairman Name',
+      name: 'Mr. A Mannan Khan',
       designation: 'Chairman',
       image: '/img/amk.jpg', // Place photo in /public/img/directors/
       bio: 'Visionary business leader guiding strategic direction, corporate governance, and expanding Mango Teleservices’ telecommunications infrastructure across Bangladesh.',
       linkedin: '#',
     },
     {
-      name: 'Managing Director Name',
-      designation: 'Managing Director & CEO',
+      name: 'Mr. Mir Masud Kabir',
+      designation: 'Managing Director',
       image: '/img/mmk.jpg', // Place photo in /public/img/directors/
       bio: 'Telecom industry pioneer with extensive experience driving IIG operations, international partnerships, network growth, and technological innovation.',
       linkedin: '#',
